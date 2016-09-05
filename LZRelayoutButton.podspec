@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.social_media_url      = "http://https://github.com/timRabbit/LZRelayoutButton"
   s.platform     = :ios,'6.0'
   s.license               = { :type => "MIT", :file => "LICENSE" }
-  s.author                = { " tim" => "491590253@qq.me" }
+  s.author                = { " tim" => "491590253@qq.com" }
   s.source                = { :git => "https://github.com/timRabbit/LZRelayoutButton.git",:tag => "1.0" }
   s.ios.deployment_target = "6.0"
   s.requires_arc          = true
