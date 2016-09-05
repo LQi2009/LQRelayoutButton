@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.requires_arc          = true
   s.framework             = "CoreFoundation","Foundation","CoreGraphics","Security","UIKit"
   s.library		= "z.1.1.3","stdc++","sqlite3"
-  s.subspec 'Easy' do |sp|
+  s.subspec 'LZRelayoutButton' do |sp|
     sp.source_files = 'LZRelayoutButton/LZRelayoutButton/LZRelayoutButton/*.{h,m,mm}'
   #  sp.resources   = "Extend/**/*.{png}"
     sp.requires_arc = true
