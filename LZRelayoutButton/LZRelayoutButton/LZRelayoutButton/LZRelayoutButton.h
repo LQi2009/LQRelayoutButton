@@ -16,5 +16,5 @@ typedef NS_ENUM(NSInteger,LZRelayoutButtonType) {
 
 @interface LZRelayoutButton : UIButton
 
-@property (assign,nonatomic)LZRelayoutButtonType lzType;
+@property (assign,nonatomic)IBInspectable LZRelayoutButtonType lzType;
 @end
