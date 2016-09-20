@@ -9,7 +9,6 @@
 #import "LZRelayoutButton.h"
 
 @implementation LZRelayoutButton
-
 - (void)setLzType:(LZRelayoutButtonType)lzType {
     _lzType = lzType;
     
@@ -22,49 +21,44 @@
 - (CGRect)imageRectForContentRect:(CGRect)contentRect {
     
     if (self.lzType == LZRelayoutButtonTypeLeft) {
-        CGFloat inteval = CGRectGetHeight(contentRect)/8.0;
         
-        //设置图片的宽高为button高度的3/4;
-        CGFloat imageH = CGRectGetHeight(contentRect) - 2 * inteval;
+        CGFloat x = contentRect.size.width - self.offset - self.imageSize.width ;
+        CGFloat y =  contentRect.size.height -  self.imageSize.height;
+        y = y/2;
         
-        CGRect rect = CGRectMake(CGRectGetWidth(contentRect) - imageH - inteval, inteval, imageH, imageH);
+        
+        CGRect rect = CGRectMake(x,y,self.imageSize.width,self.imageSize.height);
         
         return rect;
     } else if (self.lzType == LZRelayoutButtonTypeBottom) {
-        CGFloat inteval = CGRectGetWidth(contentRect)/16.0;
-        inteval = MIN(inteval, 6);
+
+        CGFloat x =  contentRect.size.width -  self.imageSize.width;
+
+        CGFloat  y=   self.offset   ;
         
-        //设置图片的宽高为button宽度的7/8;
-        CGFloat imageW = CGRectGetWidth(contentRect) - 2 * inteval;
+        x = x / 2;
         
-        CGRect rect = CGRectMake(inteval, inteval, imageW, imageW);
+        CGRect rect = CGRectMake(x,y,self.imageSize.width,self.imageSize.height);
         
         return rect;
+
     } else {
         return [super imageRectForContentRect:contentRect];
     }
+    
 }
 
 - (CGRect)titleRectForContentRect:(CGRect)contentRect {
     
     if (self.lzType == LZRelayoutButtonTypeLeft) {
-        CGFloat inteval = CGRectGetHeight(contentRect)/8.0;
-        //设置图片的宽高为button高度的3/4;
-        CGFloat imageH = CGRectGetHeight(contentRect) - 2 * inteval;
         
-        CGRect rect = CGRectMake(inteval, inteval, CGRectGetWidth(contentRect) - imageH - 2*inteval, CGRectGetHeight(contentRect) - 2*inteval);
+        return CGRectMake(0, 0, contentRect.size.width - self.offset - self.imageSize.width , contentRect.size.height);
         
-        return rect;
+        
     } else if (self.lzType == LZRelayoutButtonTypeBottom) {
-        CGFloat inteval = CGRectGetWidth(contentRect)/16.0;
-        inteval = MIN(inteval, 6);
         
-        //设置图片的宽高为button宽度的7/8;
-        CGFloat imageW = CGRectGetWidth(contentRect) - 2 * inteval;
+        return CGRectMake(0,   self.offset + self.imageSize.height , contentRect.size.width , contentRect.size.height - self.offset - self.imageSize.height );
         
-        CGRect rect = CGRectMake(0, inteval*2 + imageW, CGRectGetWidth(contentRect) , CGRectGetHeight(contentRect) - 3*inteval - imageW);
-        
-        return rect;
     } else {
         return [super titleRectForContentRect:contentRect];
     }
