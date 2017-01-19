@@ -38,6 +38,7 @@
     lz.frame = CGRectMake(50, 160, 110, 30);
     [lz setTitle:@"标题在左" forState:UIControlStateNormal];
 //    [lz setImage:[UIImage imageNamed:@"AppIcon60x60@3x"] forState:UIControlStateNormal];
+    lz.imageSize = CGSizeMake(20, 20);
     lz.lzType = LZRelayoutButtonTypeLeft;
         [lz setImage:[UIImage imageNamed:@"check_icon"] forState:UIControlStateNormal];
     [self.view addSubview:lz];
@@ -48,11 +49,14 @@
 //    lz1.titleLabel.backgroundColor = [UIColor grayColor];
 //    lz1.imageView.backgroundColor = [UIColor purpleColor];
     lz1.frame = CGRectMake(50, 300, 80, 100);
+    lz1.imageSize = CGSizeMake(80, 80);
     lz1.lzType = LZRelayoutButtonTypeBottom;
     [lz1 setTitle:@"标题在下" forState:UIControlStateNormal];
-    [lz1 setImage:[UIImage imageNamed:@"AppIcon60x60@3x"] forState:UIControlStateNormal];
+    [lz1 setImage:[UIImage imageNamed:@"AppIcon60x60"] forState:UIControlStateNormal];
 //    [lz1 setImage:[UIImage imageNamed:@"check_icon"] forState:UIControlStateNormal];
     [self.view addSubview:lz1];
+    
+//    lz1.lzType = LZRelayoutButtonTypeBottom;
 
 }
 
