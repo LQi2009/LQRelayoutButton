@@ -113,7 +113,7 @@
 			children = (
 				D23A165920F894140042CCA8 /* AppIcon60x60@3x.png */,
 				D23A165820F894140042CCA8 /* check_icon@2x.png */,
-				D23A165120F893F40042CCA8 /* File */,
+				D23A165120F893F40042CCA8 /* LQRelayoutButton */,
 				D23A161F20F893CE0042CCA8 /* AppDelegate.h */,
 				D23A162020F893CE0042CCA8 /* AppDelegate.m */,
 				D23A162220F893CE0042CCA8 /* ViewController.h */,
@@ -145,7 +145,7 @@
 			path = LQRelayoutButtonUITests;
 			sourceTree = "<group>";
 		};
-		D23A165120F893F40042CCA8 /* File */ = {
+		D23A165120F893F40042CCA8 /* LQRelayoutButton */ = {
 			isa = PBXGroup;
 			children = (
 				D23A165220F894020042CCA8 /* LQRelayoutButton.h */,
@@ -153,7 +153,7 @@
 				D23A165420F894030042CCA8 /* UIButton+LQRelayout.h */,
 				D23A165320F894020042CCA8 /* UIButton+LQRelayout.m */,
 			);
-			path = File;
+			path = LQRelayoutButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
