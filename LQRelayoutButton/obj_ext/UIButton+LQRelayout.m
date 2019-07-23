@@ -10,7 +10,7 @@
 
 @implementation UIButton (LQRelayout)
 
-- (void)relayoutBotton:(LQButtonRelayout)type {
+- (void)relayoutButton:(LQButtonRelayout)type {
 
     [self layoutIfNeeded];
     CGRect titleFrame = self.titleLabel.frame;

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D22421D02285293500A4EDA5 /* LQRelayoutButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D22421C92285293500A4EDA5 /* LQRelayoutButton.m */; };
+		D22421D12285293500A4EDA5 /* LQRelayoutButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22421CC2285293500A4EDA5 /* LQRelayoutButton.swift */; };
+		D22421D22285293500A4EDA5 /* UIButton+LQRelayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D22421CE2285293500A4EDA5 /* UIButton+LQRelayout.m */; };
 		D23A162120F893CE0042CCA8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D23A162020F893CE0042CCA8 /* AppDelegate.m */; };
 		D23A162420F893CE0042CCA8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D23A162320F893CE0042CCA8 /* ViewController.m */; };
 		D23A162720F893CE0042CCA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D23A162520F893CE0042CCA8 /* Main.storyboard */; };
@@ -15,8 +18,6 @@
 		D23A162F20F893D00042CCA8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D23A162E20F893D00042CCA8 /* main.m */; };
 		D23A163920F893D00042CCA8 /* LQRelayoutButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D23A163820F893D00042CCA8 /* LQRelayoutButtonTests.m */; };
 		D23A164420F893D00042CCA8 /* LQRelayoutButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D23A164320F893D00042CCA8 /* LQRelayoutButtonUITests.m */; };
-		D23A165620F894030042CCA8 /* UIButton+LQRelayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D23A165320F894020042CCA8 /* UIButton+LQRelayout.m */; };
-		D23A165720F894030042CCA8 /* LQRelayoutButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D23A165520F894030042CCA8 /* LQRelayoutButton.m */; };
 		D23A165A20F894140042CCA8 /* check_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D23A165820F894140042CCA8 /* check_icon@2x.png */; };
 		D23A165B20F894140042CCA8 /* AppIcon60x60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D23A165920F894140042CCA8 /* AppIcon60x60@3x.png */; };
 /* End PBXBuildFile section */
@@ -39,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D22421C92285293500A4EDA5 /* LQRelayoutButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQRelayoutButton.m; sourceTree = "<group>"; };
+		D22421CA2285293500A4EDA5 /* LQRelayoutButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQRelayoutButton.h; sourceTree = "<group>"; };
+		D22421CC2285293500A4EDA5 /* LQRelayoutButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LQRelayoutButton.swift; sourceTree = "<group>"; };
+		D22421CE2285293500A4EDA5 /* UIButton+LQRelayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+LQRelayout.m"; sourceTree = "<group>"; };
+		D22421CF2285293500A4EDA5 /* UIButton+LQRelayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+LQRelayout.h"; sourceTree = "<group>"; };
 		D23A161C20F893CE0042CCA8 /* LQRelayoutButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LQRelayoutButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D23A161F20F893CE0042CCA8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D23A162020F893CE0042CCA8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -55,10 +61,6 @@
 		D23A163F20F893D00042CCA8 /* LQRelayoutButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LQRelayoutButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D23A164320F893D00042CCA8 /* LQRelayoutButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQRelayoutButtonUITests.m; sourceTree = "<group>"; };
 		D23A164520F893D00042CCA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D23A165220F894020042CCA8 /* LQRelayoutButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQRelayoutButton.h; sourceTree = "<group>"; };
-		D23A165320F894020042CCA8 /* UIButton+LQRelayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+LQRelayout.m"; sourceTree = "<group>"; };
-		D23A165420F894030042CCA8 /* UIButton+LQRelayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+LQRelayout.h"; sourceTree = "<group>"; };
-		D23A165520F894030042CCA8 /* LQRelayoutButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQRelayoutButton.m; sourceTree = "<group>"; };
 		D23A165820F894140042CCA8 /* check_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "check_icon@2x.png"; sourceTree = "<group>"; };
 		D23A165920F894140042CCA8 /* AppIcon60x60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon60x60@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -88,6 +90,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D22421C72285293500A4EDA5 /* LQRelayoutButton */ = {
+			isa = PBXGroup;
+			children = (
+				D22421C82285293500A4EDA5 /* obj_sub */,
+				D22421CB2285293500A4EDA5 /* sf */,
+				D22421CD2285293500A4EDA5 /* obj_ext */,
+			);
+			name = LQRelayoutButton;
+			path = ../../../LQRelayoutButton;
+			sourceTree = "<group>";
+		};
+		D22421C82285293500A4EDA5 /* obj_sub */ = {
+			isa = PBXGroup;
+			children = (
+				D22421C92285293500A4EDA5 /* LQRelayoutButton.m */,
+				D22421CA2285293500A4EDA5 /* LQRelayoutButton.h */,
+			);
+			path = obj_sub;
+			sourceTree = "<group>";
+		};
+		D22421CB2285293500A4EDA5 /* sf */ = {
+			isa = PBXGroup;
+			children = (
+				D22421CC2285293500A4EDA5 /* LQRelayoutButton.swift */,
+			);
+			path = sf;
+			sourceTree = "<group>";
+		};
+		D22421CD2285293500A4EDA5 /* obj_ext */ = {
+			isa = PBXGroup;
+			children = (
+				D22421CE2285293500A4EDA5 /* UIButton+LQRelayout.m */,
+				D22421CF2285293500A4EDA5 /* UIButton+LQRelayout.h */,
+			);
+			path = obj_ext;
+			sourceTree = "<group>";
+		};
 		D23A161320F893CE0042CCA8 = {
 			isa = PBXGroup;
 			children = (
@@ -148,10 +187,7 @@
 		D23A165120F893F40042CCA8 /* LQRelayoutButton */ = {
 			isa = PBXGroup;
 			children = (
-				D23A165220F894020042CCA8 /* LQRelayoutButton.h */,
-				D23A165520F894030042CCA8 /* LQRelayoutButton.m */,
-				D23A165420F894030042CCA8 /* UIButton+LQRelayout.h */,
-				D23A165320F894020042CCA8 /* UIButton+LQRelayout.m */,
+				D22421C72285293500A4EDA5 /* LQRelayoutButton */,
 			);
 			path = LQRelayoutButton;
 			sourceTree = "<group>";
@@ -291,8 +327,9 @@
 				D23A162420F893CE0042CCA8 /* ViewController.m in Sources */,
 				D23A162F20F893D00042CCA8 /* main.m in Sources */,
 				D23A162120F893CE0042CCA8 /* AppDelegate.m in Sources */,
-				D23A165720F894030042CCA8 /* LQRelayoutButton.m in Sources */,
-				D23A165620F894030042CCA8 /* UIButton+LQRelayout.m in Sources */,
+				D22421D12285293500A4EDA5 /* LQRelayoutButton.swift in Sources */,
+				D22421D02285293500A4EDA5 /* LQRelayoutButton.m in Sources */,
+				D22421D22285293500A4EDA5 /* UIButton+LQRelayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -494,6 +531,7 @@
 		D23A164C20F893D00042CCA8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M5AQP3WXJE;
@@ -513,6 +551,7 @@
 		D23A164D20F893D00042CCA8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M5AQP3WXJE;
@@ -532,6 +571,7 @@
 		D23A164F20F893D00042CCA8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M5AQP3WXJE;
 				INFOPLIST_FILE = LQRelayoutButtonUITests/Info.plist;
@@ -550,6 +590,7 @@
 		D23A165020F893D00042CCA8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M5AQP3WXJE;
 				INFOPLIST_FILE = LQRelayoutButtonUITests/Info.plist;

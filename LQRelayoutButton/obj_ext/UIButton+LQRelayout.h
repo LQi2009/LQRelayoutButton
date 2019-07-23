@@ -17,5 +17,5 @@ typedef NS_ENUM(NSInteger, LQButtonRelayout) {
 
 @interface UIButton (LQRelayout)
 
-- (void)relayoutBotton:(LQButtonRelayout)type ;
+- (void)relayoutButton:(LQButtonRelayout)type ;
 @end

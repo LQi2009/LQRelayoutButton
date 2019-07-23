@@ -27,11 +27,12 @@
     
     UIButton *button1 = [UIButton buttonWithType:UIButtonTypeCustom];
     button1.backgroundColor = [UIColor redColor];
-    button1.frame = CGRectMake(40, 90, 100, 30);
+    button1.frame = CGRectMake(40, 90, 300, 30);
     [button1 setTitle:@"标题在左" forState:UIControlStateNormal];
     [button1 setImage:[UIImage imageNamed:@"check_icon"] forState:UIControlStateNormal];
     [self.view addSubview:button1];
-    [button1 relayoutBotton:(LQButtonRelayoutTitleLeft)];
+    [button1 relayoutButton:(LQButtonRelayoutTitleLeft)];
+    button1.titleLabel.textAlignment = NSTextAlignmentLeft;
     
     
     UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
@@ -40,7 +41,7 @@
     [button setTitle:@"标题在下" forState:UIControlStateNormal];
     [button setImage:[UIImage imageNamed:@"AppIcon60x60"] forState:UIControlStateNormal];
     [self.view addSubview:button];
-    [button relayoutBotton:(LQButtonRelayoutTitleBottom)];
+    [button relayoutButton:(LQButtonRelayoutTitleBottom)];
 }
 
 - (void) zileiButton {
